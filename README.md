@@ -29,5 +29,9 @@ Desarrollar el software que se ejecutará en el servidor dando servicio a una a
 ## Changelog {#changelog}  
 - Versión v.0.0.0  
     - README.md  
-    - .gitignore
+    - .gitignore  
 
+- Versión v.1.0.0  
+    - Aplicación generada  
+    - Dependencias instaladas  
+    - Servidor configurado y funcionando  
