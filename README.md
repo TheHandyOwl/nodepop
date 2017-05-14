@@ -5,19 +5,21 @@ Desarrollar el software que se ejecutará en el servidor dando servicio a una a
 
 ## Tabla de contenido  
 
-[Repositorio GitHub](#repo)  
-[Instalación](#install)  
-[Desarrollo](#dev)  
-[Rutas](#router)  
-[Changelog](#changelog)  
+* [Repositorio GitHub](#repositorio-github)  
+* [Instalacion](#instalacion)  
+  * [Dependencias necesarias](#dependencias-necesarias)  
+  * [Archivo www](#archivo-www)  
+* [Desarrollo](#desarrollo)  
+* [Rutas](#rutas)  
+* [Changelog](#changelog)  
 
 
-## Repositorio GitHub {#repo}  
+## Repositorio GitHub  
 
 [https://github.com/TheHandyOwl/practica_node](https://github.com/TheHandyOwl/practica_node)  
 
 
-## Instalación {#install}  
+## Instalacion  
 
 ### Dependencias necesarias  
 Las dependencias locales pueden consultarse en el archivo package.json.  
@@ -33,8 +35,9 @@ El script de inicio arranca nodemon
   },
 ```
 
-## Desarrollo {#dev}  
-### Archivo ./bin/www  
+## Desarrollo  
+
+### Archivo www  
 Cambiamos el debug por un console.log() para visualizar la información por consola  
 ```
 /**
@@ -52,7 +55,7 @@ function onListening() {
 ```
 
 
-## Rutas {#router}  
+## Rutas  
 
 | Ruta | Tipo | Archivo | Descripción |    
 | ------------- | ------------- | ------------- | ------------- |  
@@ -60,7 +63,8 @@ function onListening() {
 | / | POST | ./ | |  
 
 
-## Changelog {#changelog}  
+## Changelog  
+
 - Versión v.0.0.0  
     - README.md  
     - .gitignore  
@@ -71,6 +75,10 @@ function onListening() {
     - Servidor configurado y funcionando  
 
 - Versión v.2.0.0  
-    - Instalamos dependencia cluster
-    - Añadimos funcionalidad de clustering    
-    - Completamos documentación de instalación y dependencias
+    - Instalamos dependencia cluster  
+    - Añadimos funcionalidad de clustering  
+    - Completamos documentación de instalación y dependencias  
+
+- Versión v.2.0.1  
+    - Corregidos enlacen internos en la documentación  
+    
