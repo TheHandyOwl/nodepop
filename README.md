@@ -107,4 +107,11 @@ El script de inicio arranca nodemon
 
 - Versión v.2.0.1  
     - Corregidos enlacen internos en la documentación  
+
+- Versión v.3.0.0  
+    - Añadimos mongoose  
+    - Añadimos modelo anuncios  
+    - Añadimos modelo usuarios  
+    - Añadimos datos de prueba para autocarga  
+    - Modificamos inicio de servidor con scripts de autocarga  
     
