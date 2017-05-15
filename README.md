@@ -1,4 +1,4 @@
-# practica_node  
+# nodepop  
 
 Desarrollar el software que se ejecutará en el servidor dando servicio a una app (API) de venta de artículos de segunda mano, llamada Nodepop.  
 
@@ -16,7 +16,7 @@ Desarrollar el software que se ejecutará en el servidor dando servicio a una a
 
 ## Repositorio GitHub  
 
-[https://github.com/TheHandyOwl/practica_node](https://github.com/TheHandyOwl/practica_node)  
+[https://github.com/TheHandyOwl/nodepop](https://github.com/TheHandyOwl/nodepop)  
 
 
 ## Instalacion  
