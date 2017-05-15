@@ -117,3 +117,10 @@ El script de inicio arranca node
 
 - Versión v.3.0.1  
     - Cambiamos script de inicio setup a installDB  
+
+- Versión v.3.1.0  
+    - Preparamos los errores en la ruta del API para que devuelva json
+    - Creamos la ruta para el API
+    - Creamos la ruta para anuncios
+    - Creamos filtros en anuncios  
+    
