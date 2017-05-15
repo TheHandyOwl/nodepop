@@ -1,11 +1,11 @@
 {
   "name": "nodepop",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
     "setup": "npm install",
-    "sample": "node ./lib/sample_data/install_db"
+    "installDB": "node ./lib/sample_data/install_db"
   },
   "dependencies": {
     "body-parser": "~1.17.1",

@@ -114,4 +114,6 @@ El script de inicio arranca node
     - Añadimos modelo usuarios  
     - Añadimos datos de prueba para autocarga  
     - Modificamos inicio de servidor con scripts de autocarga  
-    
+
+- Versión v.3.0.1  
+    - Cambiamos script de inicio setup a installDB  
