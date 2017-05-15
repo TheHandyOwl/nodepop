@@ -29,10 +29,16 @@ Para instalarlas desde el directorio raíz de la aplicación, ejecutando el sigu
 npm install
 ```
 
-El script de inicio arranca nodemon  
+O también dejando desde npm
+```
+npm run setup
+```
+
+El script de inicio arranca node  
 ```
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www",
+    "setup": "npm install"
   },
 ```
 
@@ -56,6 +62,23 @@ function onListening() {
   console.log('Listening on ' + bind);
 }
 ```
+
+Se han añadido datos de prueba.
+ADVERTENCIA: LAS COLECCIONES EXISTENTES SERAN ELIMINADAS
+
+La carga de datos se inicia con:  
+```
+npm run sample
+```
+
+El script de inicio arranca node  
+```
+  "scripts": {
+    "start": "node ./bin/www",
+    "setup": "npm install",
+    "sample": "node ./lib/sample_data/install_db"
+  },
+```  
 
 
 ## Rutas  
@@ -84,4 +107,11 @@ function onListening() {
 
 - Versión v.2.0.1  
     - Corregidos enlacen internos en la documentación  
+
+- Versión v.3.0.0  
+    - Añadimos mongoose  
+    - Añadimos modelo anuncios  
+    - Añadimos modelo usuarios  
+    - Añadimos datos de prueba para autocarga  
+    - Modificamos inicio de servidor con scripts de autocarga  
     
