@@ -51,4 +51,9 @@ router.get('/', (req, res, next) => {
     });
 });
 
+/* GET /apiv1/anuncios/:id */
+router.get('/:id', (req, res, next) => {
+    res.json( { success: true, result: req.params.id } );
+});
+
 module.exports = router;
