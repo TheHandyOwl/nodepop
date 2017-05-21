@@ -166,4 +166,6 @@ El script de inicio arranca node
 - Versión v.4.2.1  
     - Guardamos email en minúscula para optimizar búsquedas en la BBDD
     - Añadimos buscadas mejoradas que no son 'case sensitive' para buscar mail o nombre  
-        
+
+- Versión v.4.2.3  
+    - Se muestran las fotos en ruta estática  
