@@ -171,3 +171,5 @@ El script de inicio arranca node
     - Revisión final
     - Queda pendiente la internacionalización  
     
+- Versión v.4.2.3  
+    - Se muestran las fotos en ruta estática  
