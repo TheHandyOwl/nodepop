@@ -1,3 +1,11 @@
+# [Práctica Node][repo]
+
+**Práctica Node - KC Mobile Bootcamp V Edición**
+
+Práctica del curso de Node. Construir un API para una futura aplicación llamada nodepop.
+
+----------
+
 # practica_node  
 
 Desarrollar el software que se ejecutará en el servidor dando servicio a una app (API) de venta de artículos de segunda mano, llamada Nodepop.  
@@ -222,3 +230,5 @@ El script de inicio arranca node
 - Versión v.5.0.1  
     - Añadimos página de inicio en el servidor node para facilitar la evaluación de la práctica  
     - Mejoramos la documentación  
+
+  [repo]: https://github.com/TheHandyOwl/nodepop
